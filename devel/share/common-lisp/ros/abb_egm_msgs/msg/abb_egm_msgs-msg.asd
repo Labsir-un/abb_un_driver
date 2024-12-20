@@ -1,1 +1,0 @@
-/Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_egm_msgs/share/common-lisp/ros/abb_egm_msgs/msg/abb_egm_msgs-msg.asd

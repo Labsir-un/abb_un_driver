@@ -1,9 +1,0 @@
-[ 12%] [32mBuilding CXX object CMakeFiles/abb_egm_hardware_interface_hardware_interface.dir/src/egm_hardware_interface.cpp.o[0m
-[ 37%] Built target abb_egm_hardware_interface_controller_stopper
-[ 62%] Built target abb_egm_hardware_interface_controller_stopper_exe
-[ 75%] [32m[1mLinking CXX shared library /Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_egm_hardware_interface/lib/libabb_egm_hardware_interface_hardware_interface.dylib[0m
-ld: warning: -pie being ignored. It is only used when linking a main executable
-[ 75%] Built target abb_egm_hardware_interface_hardware_interface
-[ 87%] [32mBuilding CXX object CMakeFiles/abb_egm_hardware_interface_hardware_interface_exe.dir/src/egm_hardware_interface_main.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_egm_hardware_interface/lib/abb_egm_hardware_interface/egm_hardware_interface[0m
-[100%] Built target abb_egm_hardware_interface_hardware_interface_exe
