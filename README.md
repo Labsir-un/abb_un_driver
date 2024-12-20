@@ -1,4 +1,5 @@
 # abb_un_driver
+Disclaimer: Este código es basado en los repositorios a los que se hace referencia durante este README. 
 
 Para el control de los ABB con ROS, existen dos grandes métodos de comunicación. Ambos desarrollados por **ros_industrial** y principalmente testeados en **melodic**. 
 
