@@ -1,0 +1,22 @@
+[100%] Built target abb_librws
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/rws_rapid.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/rws_cfg.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/rws_common.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/rws_state_machine_interface.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/rws_interface.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/rws_poco_client.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/rws_client.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_librws/abb_librws_export.h
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/cmake
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/cmake/FindPoco.cmake
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/cmake/README.md
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/libabb_librws.dylib
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/abb_librwsConfig.cmake
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/abb_librwsConfigVersion.cmake
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/package.xml
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/abb_librwsTargets.cmake
+-- Installing: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_librws/abb_librwsTargets-noconfig.cmake

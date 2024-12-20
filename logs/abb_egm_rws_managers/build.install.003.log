@@ -1,0 +1,20 @@
+[100%] Built target abb_egm_rws_managers
+[36mInstall the project...[0m
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/rws_manager.h
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/utilities.h
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/system_data_parser.h
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/egm_manager.h
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/data_containers.h
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/robot_controller_description.proto
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/robot_controller_description.pb.h
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/include/abb_egm_rws_managers/abb_egm_rws_managers_export.h
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_egm_rws_managers/abb_egm_rws_managersConfig.cmake
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_egm_rws_managers/abb_egm_rws_managersConfigVersion.cmake
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_egm_rws_managers/package.xml
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/libabb_egm_rws_managers.dylib
+error: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/install_name_tool: no LC_RPATH load command with path: /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib found in: /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/libabb_egm_rws_managers.dylib (for architecture x86_64), required for specified option "-delete_rpath /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib"
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_egm_rws_managers/abb_egm_rws_managersTargets.cmake
+-- Up-to-date: /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_egm_rws_managers/abb_egm_rws_managersTargets-relwithdebinfo.cmake

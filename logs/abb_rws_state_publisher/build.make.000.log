@@ -1,0 +1,11 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/abb_rws_state_publisher.dir/src/rws_state_publisher.cpp.o[0m
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/src/abb_robot_driver/abb_rws_state_publisher/src/rws_state_publisher.cpp:61:16: [0m[0;1;35mwarning: [0m[1munused variable 'ROS_LOG_PUBLISHER' [-Wunused-const-variable][0m
+constexpr char ROS_LOG_PUBLISHER[]{"publisher"};
+[0;1;32m               ^
+[0m1 warning generated.
+[ 50%] [32m[1mLinking CXX shared library /Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_rws_state_publisher/lib/libabb_rws_state_publisher.dylib[0m
+ld: warning: -pie being ignored. It is only used when linking a main executable
+[ 50%] Built target abb_rws_state_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/abb_rws_state_publisher_exe.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_rws_state_publisher/lib/abb_rws_state_publisher/rws_state_publisher[0m
+[100%] Built target abb_rws_state_publisher_exe

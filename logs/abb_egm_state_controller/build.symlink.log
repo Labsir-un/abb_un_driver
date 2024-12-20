@@ -1,0 +1,4 @@
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/libabb_egm_state_controller.dylib
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/pkgconfig/abb_egm_state_controller.pc
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_egm_state_controller/cmake/abb_egm_state_controllerConfig.cmake
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_egm_state_controller/cmake/abb_egm_state_controllerConfig-version.cmake

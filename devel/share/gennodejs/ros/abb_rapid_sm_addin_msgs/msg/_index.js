@@ -1,0 +1,1 @@
+/Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_rapid_sm_addin_msgs/share/gennodejs/ros/abb_rapid_sm_addin_msgs/msg/_index.js

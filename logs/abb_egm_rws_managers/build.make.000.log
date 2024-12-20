@@ -1,0 +1,1652 @@
+[ 14%] [34m[1mRunning cpp protocol buffer compiler on proto/robot_controller_description.proto[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/egm_manager.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/rws_manager.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/system_data_parser.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/utilities.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/robot_controller_description.pb.cc.o[0m
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:393:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_ip_address();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:411:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:393:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_ip_address();
+[0;1;32m  ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:[1m41/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:
+:In file included from 463/Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h::3044::
+ [1m[0m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h[0;1;30m:note: 429[0m:expanded from macro 'PROTOBUF_NODISCARD'3[0m:
+ [0m#define PROTOBUF_NODISCARD [[nodiscard]][0;1;35m
+warning: [0;1;32m[0m                             ^[1m
+use of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m[0m
+  PROTOBUF_NODISCARD std::string* release_system_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:444:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotWareVersion* release_robot_ware_version();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:411:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:429:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:444:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotWareVersion* release_robot_ware_version();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:664:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Header* release_header();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:682:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::SystemIndicators* release_system_indicators();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:664:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Header* release_header();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:682:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::SystemIndicators* release_system_indicators();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:854:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:854:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1448:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Cartesian* release_position();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1466:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Quaternion* release_rotation();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1448:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Cartesian* release_position();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1466:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Quaternion* release_rotation();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2166:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotIndicators* release_robots();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2184:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::OptionIndicators* release_options();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2202:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::AddInIndicators* release_addins();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2166:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotIndicators* release_robots();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2184:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::OptionIndicators* release_options();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2202:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::AddInIndicators* release_addins();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2371:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2371:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2550:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2550:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2745:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h/Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp::274541::
+3In file included from :/Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h :[0m44[0;1;35m:
+warning: [1m[0m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h[1m:use of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions]2760[0m:
+3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc  PROTOBUF_NODISCARD ::abb::robot::Arm* release_arm();:
+463[0;1;32m:  ^30
+:[0m [0m[0;1;30mnote: [1m[0m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.incexpanded from macro 'PROTOBUF_NODISCARD':[0m463
+:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2760:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions]In file included from [0m
+/Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2778:  PROTOBUF_NODISCARD ::abb::robot::Arm* release_arm();3
+:[0;1;32m   ^[0m
+[0;1;35m[0mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m[1m
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+  PROTOBUF_NODISCARD ::abb::robot::Transmission* release_transmission();
+[0;1;32m  ^
+#define PROTOBUF_NODISCARD [[nodiscard]][0m
+[0;1;32m                             ^
+[1m[0m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2778:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Transmission* release_transmission();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2978:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_original_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2996:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_standardized_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'In file included from [0m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc
+:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2978:3: [0m[0;1;35m#define PROTOBUF_NODISCARD [[nodiscard]]warning: 
+[0m[1m[0;1;32muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions]                             ^[0m
+
+[0m  PROTOBUF_NODISCARD std::string* release_original_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2996:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_standardized_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3206:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3206:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3224:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^In file included from 
+/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:[0m4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:[1m3224/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc::3463:: 30[0m:[0;1;35m warning: [0m[0m[0;1;30m[1mnote: use of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m[0mexpanded from macro 'PROTOBUF_NODISCARD'
+[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m  PROTOBUF_NODISCARD std::string* release_type();                             ^
+
+[0;1;32m[0m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3242:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions]In file included from [0m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc
+:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3242:3: [0m[0;1;35mwarning: [0m[1m  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();use of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions]
+[0m[0;1;32m
+  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote:   PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();[0m
+expanded from macro 'PROTOBUF_NODISCARD'[0;1;32m[0m  ^
+
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30#define PROTOBUF_NODISCARD [[nodiscard]]:
+ [0;1;32m[0m                             ^[0;1;30m
+note: [0m[0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44In file included from :
+/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc[1m:/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h4::
+3257[1m:/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h3::3257 :[0m3[0;1;35m:warning:  [0m[0m[1m[0;1;35muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions]warning: [0m[0m
+[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Joint* release_joint();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30m  PROTOBUF_NODISCARD ::abb::robot::Joint* release_joint();note: 
+[0m[0;1;32mexpanded from macro 'PROTOBUF_NODISCARD'  ^[0m
+
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30:#define PROTOBUF_NODISCARD [[nodiscard]] 
+[0m[0;1;32m[0;1;30m                             ^note: 
+[0m[0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3275:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3275:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3467:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3467:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.hIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3485:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+:3485:3  PROTOBUF_NODISCARD std::string* release_type();:
+ [0;1;32m[0m  ^[0;1;35m
+warning: [0m[0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3503:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();
+[0;1;32mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc  ^:
+4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3503:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();[0m
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:[1m30/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:: 463[0m:[0;1;30m30note: :[0m expanded from macro 'PROTOBUF_NODISCARD'[0m[0m[0;1;30m
+note: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3518:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is aIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3518:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3801:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3801:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3819:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_task_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3819:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_task_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3837:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m  PROTOBUF_NODISCARD std::string* release_is_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3837:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0mIn file included from 
+/Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3855:3  PROTOBUF_NODISCARD std::string* release_is_integrated_unit();:
+ [0;1;32m[0m  ^[0;1;35m
+warning: [0m[0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m[1m
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc  PROTOBUF_NODISCARD std::string* release_has_integrated_unit();:
+463:[0;1;32m30  ^:
+ [0m[0m[0;1;30mnote: [0m[1mexpanded from macro 'PROTOBUF_NODISCARD'/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc[0m:
+463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'#define PROTOBUF_NODISCARD [[nodiscard]][0m
+
+[0;1;32m                             ^
+[0m#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3873:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3855:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_has_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m  PROTOBUF_NODISCARD std::string* release_status();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+In file included from [0m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3873:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_status();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3888:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Robot* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3888:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Robot* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4137:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4137:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4152:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::MechanicalUnit* release_robot();
+[0;1;32m  ^
+[0mIn file included from [1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc::4634::
+30[1m:/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h :[0m4152[0;1;30m:note: 3[0m:expanded from macro 'PROTOBUF_NODISCARD' [0m[0m
+[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m  PROTOBUF_NODISCARD ::abb::robot::MechanicalUnit* release_robot();                             ^
+
+[0;1;32m[0m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+In file included from [1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h::44321:
+:[1m3/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:: 4321[0m:[0;1;35m3warning: :[0m [1m[0muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0;1;35m[0mwarning: 
+[0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^  PROTOBUF_NODISCARD std::string* release_name();
+
+[0m[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4339:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4339:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/utilities.cpp:41:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4561:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.cc:4:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4561:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:393:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_ip_address();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:411:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:429:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:444:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotWareVersion* release_robot_ware_version();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:664:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Header* release_header();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:682:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::SystemIndicators* release_system_indicators();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:854:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1448:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Cartesian* release_position();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1466:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Quaternion* release_rotation();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2166:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotIndicators* release_robots();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2184:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::OptionIndicators* release_options();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2202:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::AddInIndicators* release_addins();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2371:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2550:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2745:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2760:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Arm* release_arm();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2778:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Transmission* release_transmission();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2978:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_original_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2996:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_standardized_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3206:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3224:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3242:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3257:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Joint* release_joint();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3275:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3467:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3485:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3503:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3518:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3801:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3819:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_task_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3837:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_is_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3855:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_has_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3873:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_status();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3888:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Robot* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4137:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4152:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::MechanicalUnit* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4321:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4339:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/system_data_parser.cpp:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h:43:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4561:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:393:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_ip_address();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:411:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:429:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:444:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotWareVersion* release_robot_ware_version();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:664:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Header* release_header();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:682:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::SystemIndicators* release_system_indicators();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:854:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1448:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Cartesian* release_position();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1466:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Quaternion* release_rotation();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2166:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotIndicators* release_robots();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2184:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::OptionIndicators* release_options();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2202:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::AddInIndicators* release_addins();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2371:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2550:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2745:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2760:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Arm* release_arm();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2778:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Transmission* release_transmission();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2978:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_original_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2996:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_standardized_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3206:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3224:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3242:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3257:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Joint* release_joint();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3275:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3467:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3485:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3503:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3518:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3801:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3819:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_task_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3837:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_is_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3855:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_has_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3873:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_status();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3888:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Robot* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4137:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4152:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::MechanicalUnit* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4321:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4339:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/rws_manager.cpp:39:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4561:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:393:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_ip_address();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:411:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:429:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_system_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:444:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotWareVersion* release_robot_ware_version();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:664:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Header* release_header();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:682:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::SystemIndicators* release_system_indicators();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:854:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1448:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Cartesian* release_position();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:1466:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Quaternion* release_rotation();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2166:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::RobotIndicators* release_robots();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2184:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::OptionIndicators* release_options();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2202:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::AddInIndicators* release_addins();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2371:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2550:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2745:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2760:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Arm* release_arm();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2778:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Transmission* release_transmission();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2978:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_original_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:2996:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_standardized_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3206:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3224:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3242:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3257:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Joint* release_joint();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3275:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3467:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3485:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3503:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_base_frame_moved_by();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3518:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Pose* release_base_frame();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3801:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3819:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_task_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3837:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_is_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3855:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_has_integrated_unit();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3873:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_status();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:3888:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::Robot* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4137:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4152:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD ::abb::robot::MechanicalUnit* release_robot();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4321:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4339:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_type();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0mIn file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/src/egm_manager.cpp:40:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h:45:
+In file included from /Users/amoralesma/Documents/research/abb_driver_pci/src/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h:44:
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/build/abb_egm_rws_managers/robot_controller_description.pb.h:4561:3: [0m[0;1;35mwarning: [0m[1muse of the 'nodiscard' attribute is a C++17 extension [-Wc++17-attribute-extensions][0m
+  PROTOBUF_NODISCARD std::string* release_name();
+[0;1;32m  ^
+[0m[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/google/protobuf/port_def.inc:463:30: [0m[0;1;30mnote: [0mexpanded from macro 'PROTOBUF_NODISCARD'[0m
+#define PROTOBUF_NODISCARD [[nodiscard]]
+[0;1;32m                             ^
+[0m39 warnings generated.
+39 warnings generated.
+39 warnings generated.
+39 warnings generated.
+39 warnings generated.
+[100%] [32m[1mLinking CXX shared library libabb_egm_rws_managers.dylib[0m
+ld: warning: -pie being ignored. It is only used when linking a main executable
+[100%] Built target abb_egm_rws_managers

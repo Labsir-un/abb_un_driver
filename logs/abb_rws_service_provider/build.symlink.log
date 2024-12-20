@@ -1,0 +1,5 @@
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/libabb_rws_service_provider.dylib
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/pkgconfig/abb_rws_service_provider.pc
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/lib/abb_rws_service_provider/rws_service_provider
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_rws_service_provider/cmake/abb_rws_service_providerConfig-version.cmake
+Symlinking /Users/amoralesma/Documents/research/abb_driver_pci/devel/share/abb_rws_service_provider/cmake/abb_rws_service_providerConfig.cmake

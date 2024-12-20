@@ -1,0 +1,5 @@
+[1m/Users/amoralesma/Documents/research/abb_driver_pci/src/abb_robot_driver/abb_rws_state_publisher/src/rws_state_publisher.cpp:61:16: [0m[0;1;35mwarning: [0m[1munused variable 'ROS_LOG_PUBLISHER' [-Wunused-const-variable][0m
+constexpr char ROS_LOG_PUBLISHER[]{"publisher"};
+[0;1;32m               ^
+[0m1 warning generated.
+ld: warning: -pie being ignored. It is only used when linking a main executable

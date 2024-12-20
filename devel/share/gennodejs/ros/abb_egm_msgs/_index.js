@@ -1,0 +1,1 @@
+/Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_egm_msgs/share/gennodejs/ros/abb_egm_msgs/_index.js

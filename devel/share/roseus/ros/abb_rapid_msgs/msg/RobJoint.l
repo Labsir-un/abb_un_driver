@@ -1,0 +1,1 @@
+/Users/amoralesma/Documents/research/abb_driver_pci/devel/.private/abb_rapid_msgs/share/roseus/ros/abb_rapid_msgs/msg/RobJoint.l

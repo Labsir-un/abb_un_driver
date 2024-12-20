@@ -1,0 +1,6 @@
+devel_space: /Users/amoralesma/Documents/research/abb_driver_pci/devel
+install: false
+install_space: /Users/amoralesma/Documents/research/abb_driver_pci/install
+profile: default
+source_space: /Users/amoralesma/Documents/research/abb_driver_pci/src
+workspace: /Users/amoralesma/Documents/research/abb_driver_pci
